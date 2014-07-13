@@ -1,0 +1,18 @@
+set number
+
+set autoindent 
+set tabstop=4
+set shiftwidth=4
+
+
+"CtrlP plugin
+set runtimepath^=~/.vim/bundle/ctrlp.vim
+
+"Syntax plugin
+syntax enable
+colorscheme molokai
+let g:rehash256 = 1
+let g:molokai_original = 1
+
+
+set t_Co=256
